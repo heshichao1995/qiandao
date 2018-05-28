@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 
 @Component
-public class QianDaoService {
+public class QdService {
 
 	public String qiandao(String name,List<String> namez,List<String> names) {
 		boolean flag=false; 

@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ChaXunService {
+public class CxService {
 	
 	public String chaxun(String name,List<String> nameq,List<String> namez) {
 		boolean flag=false;

@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TongJiService {
+public class TjService {
 	public int tongji(List<String> listz,List<String> listq){
 		System.out.println("已签到人数："+listq.size());
 		System.out.println("未签到人数："+(listz.size()-listq.size()));

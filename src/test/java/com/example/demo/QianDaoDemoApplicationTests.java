@@ -12,19 +12,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.example.demo.service.ChaXunService;
-import com.example.demo.service.QianDaoService;
-import com.example.demo.service.TongJiService;
+import com.example.demo.service.CxService;
+import com.example.demo.service.QdService;
+import com.example.demo.service.TjService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class QianDaoDemoApplicationTests {
 	@Autowired
-	private QianDaoService qianDaoService;
+	private QdService qianDaoService;
 	@Autowired
-	private ChaXunService chaXunService;
+	private CxService chaXunService;
 	@Autowired
-	private TongJiService tongJiService;
+	private TjService tongJiService;
 	
 
 	@Test
