@@ -12,7 +12,7 @@ import com.example.demo.service.QdService;
 import com.example.demo.service.TjService;
 
 
-@SpringBootApplication
+@SpringBootApplication   
 public class QianDaocontroller {
 	@Bean
 	public String qiandao() {
@@ -27,11 +27,11 @@ public class QianDaocontroller {
 		List<String> names=new ArrayList<>();
 		while(true) {
 			System.out.println("请输入姓名：");
-			String qname=scanner.next();
+			String qdname=scanner.next();
 			QdService qianDao=new QdService();
-			String nameq=qianDao.qiandao(qname, list,names);
-			if(nameq!=null) {
-				names.add(nameq);
+			String nameqd=qianDao.qiandao(qdname, list,names);
+			if(nameqd!=null) {
+				names.add(nameqd);
 			}
 			System.out.println("是否继续签到? 通过键盘键入y/n来判定");
 			String what=scanner.next();

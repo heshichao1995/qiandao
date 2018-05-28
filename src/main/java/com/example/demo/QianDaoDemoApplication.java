@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.example.demo.web.QianDaocontroller;
 
-@SpringBootApplication
+@SpringBootApplication     //用在程序的入口
 public class QianDaoDemoApplication {
 
 	public static void main(String[] args) {
